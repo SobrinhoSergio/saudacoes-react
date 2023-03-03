@@ -12,12 +12,10 @@ export const Title = styled.h1`
     } else if (hour >= 12 && hour < 18) {
       return '#09939A'; // afternoon color
     } else {
-      return '#795548'; // evening color
+      return '#191919'; // evening color
     }
   }};
 `;
-
-
 
 export const Image = styled.img`
   width: 250px;

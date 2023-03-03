@@ -61,7 +61,7 @@ const Container = styled.div`
       case 'afternoon':
         return '#DD783D'; // lilas
       case 'evening':
-        return '#3D5056'; // Preto
+        return '#191919'; // Preto
       default:
         return '#fff'; // Branco (caso não seja reconhecido um período)
     }
